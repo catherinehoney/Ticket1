@@ -1,0 +1,71 @@
+/* @@ -0,0 +1,70 @@ */
+body{ 
+    height: 500px;
+}
+.hstack{
+    display: flex;
+    margin-right: 70px;
+}
+.back-img{
+   background-image:linear-gradient( 180deg, #9D0E0E00 0%, #4F0707 100%), url(./images/zomatoImage.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 500px;
+}
+.Login{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.creatacc {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.logo{
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 600;
+    color: orangered;
+}
+.datalist{
+    margin-left: 33%;
+}
+.heading{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.heading h2{
+    color: #192f60;
+}
+.heading p{
+    opacity: 0.7;
+}
+.mainCard{
+    gap: 90px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.card{
+    width: 395px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.titleItem{
+    width: 155px;
+    height: 155px;
+    margin-left: -12px;
+}
+.titleheading{
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 15px;
+}
